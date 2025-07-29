@@ -1,2 +1,4 @@
 # Medical-Report-Analyzer
-AI-Powered Medical Report Analyzer using Multilabel NLP Classification.
+A multilabel NLP classifier that analyzes medical reports and assigns diagnostic categories.
+
+
