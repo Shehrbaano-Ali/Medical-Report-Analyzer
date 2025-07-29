@@ -1,0 +1,9 @@
+patient_id,report_text,diagnoses
+101,"The patient shows symptoms of fever, cough, and body ache.",Flu
+102,"Complaints of chest pain, shortness of breath, and fatigue.",Heart Disease
+103,"Blurred vision and frequent urination observed.",Diabetes
+104,"MRI scan reveals brain lesions; signs of memory loss.",Alzheimer's
+105,"Skin rashes, joint pain, and positive ANA test.",Lupus
+106,"X-ray shows swollen joints; reports morning stiffness.",Rheumatoid Arthritis
+107,"Complaints include increased thirst and unhealed wounds.",Diabetes
+108,"Blood test shows high cholesterol and irregular heartbeat.",Heart Disease
