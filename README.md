@@ -109,6 +109,25 @@ You can try the Medical Report Analyzer directly in your browser via Streamlit:
 
 ---
 
+## Why This Streamlit App Isn’t Just UI:
+
+This web app isn't a shortcut or a front — it’s powered by a real machine learning model that I trained from scratch.
+
+Before this app could run, I completed a full pipeline:
+
+- Explored and cleaned the diagnostic report data.
+- Engineered features for medical language.
+- Trained and evaluated a multilabel classifier.
+- Saved a working model and text vectorizer to be used here.
+
+Without those earlier steps, this app would not function — it would crash or give nonsense.
+
+So this isn't just a pretty interface — it’s the final layer of a real-world, working ML system.
+
+⚠️ **Note:** This app runs on a real trained model — it’s not a mock-up.
+
+---
+
 ## Author:
 
 **Shehrbano Ali**  
