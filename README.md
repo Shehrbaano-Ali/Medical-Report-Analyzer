@@ -97,6 +97,7 @@ Make sure we have Streamlit installed:
 
 ```bash
 pip install streamlit
+```
 
 ---
 
