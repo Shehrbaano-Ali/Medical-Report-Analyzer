@@ -13,26 +13,35 @@ Given a medical report written in natural language, this tool predicts **multipl
 ## Project Structure:
 
 ```bash
-medical-report-analyzer/
+Medical-Report-Analyzer/
 │
 ├── data/
-│   └── medical_reports.csv            # Dataset of medical reports
+│   └── medical_reports.csv            # Dataset of diagnostic reports
 │
 ├── models/
-│   ├── multilabel_model.pkl           # Trained multilabel classifier
-│   └── vectorizer.pkl                 # TF-IDF vectorizer
+│   ├── multilabel_model.pkl           # Trained multilabel classification model
+│   └── vectorizer.pkl                 # TF-IDF vectorizer used in training
 │
 ├── notebooks/
-│   ├── 01_EDA.ipynb                   # Exploratory Data Analysis
-│   ├── 02_Preprocessing.ipynb         # Text cleaning & label encoding
-│   ├── 03_Modeling.ipynb              # Multilabel model training
-│   ├── 04_Evaluation.ipynb            # Performance metrics & SHAP
-│   └── 05_Deploy.ipynb                # Save model, predict function
+│   ├── eda.ipynb                      # Exploratory Data Analysis
+│   ├── preprocessing.ipynb           # Text cleaning & label encoding
+│   ├── modeling.ipynb                # Model training
+│   ├── evaluation.ipynb              # Evaluation metrics & explainability
+│   └── deploy.ipynb                  # Model saving & predict function
 │
-├── predict.py                         # Predict function using saved model
-├── app.py                             # (Optional) Streamlit app
-├── README.md                          # Project overview and usage
-└── requirements.txt                   # Python dependencies
+├── predictions/
+│   ├── predict.py                    # Prediction script using trained model
+│   └── predict_test.ipynb           # Notebook to test predictions
+│
+├── src/
+│   ├── features.py                   # Feature engineering utils
+│   └── model.py                      # Modeling helper functions
+│
+├── app.py                            # Streamlit web app
+├── requirements.txt                  # Python dependencies
+├── .gitignore                        # Files to ignore in version control
+├── LICENSE                           # License file
+└── README.md                         # Project overview and usage instructions
 ```
 
 ---
