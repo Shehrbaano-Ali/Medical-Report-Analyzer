@@ -100,6 +100,14 @@ pip install streamlit
 
 ---
 
+## Live Streamlit Demo:
+
+You can try the Medical Report Analyzer directly in your browser via Streamlit:
+
+🔗 [Click here to launch the app](https://medical-report-analyzer-jywuktcjnokbuyvlaujnnq.streamlit.app/)
+
+---
+
 ## Author:
 
 **Shehrbano Ali**  
