@@ -85,8 +85,24 @@ print(predict_labels(example))
 
 ---
 
+## Run the Streamlit Interface:
+
+We can test the model with a clean, interactive UI built using Streamlit.
+
+---
+
+## Install Streamlit:
+
+Make sure we have Streamlit installed:
+
+```bash
+pip install streamlit
+
+---
+
 ## Author:
 
 **Shehrbano Ali**  
 *Machine Learning Model Developer*  
 [GitHub Profile](https://github.com/Shehrbaano-Ali)
+
